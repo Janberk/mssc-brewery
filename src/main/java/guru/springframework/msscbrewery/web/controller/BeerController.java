@@ -51,4 +51,5 @@ public class BeerController {
     public void delete(@PathVariable("beerId") UUID beerId) {
         beerService.deleteById(beerId);
     }
+
 }
