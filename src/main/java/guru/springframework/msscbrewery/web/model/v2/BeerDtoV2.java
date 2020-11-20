@@ -24,7 +24,7 @@ public class BeerDtoV2 {
     @NotBlank
     private String beerName;
     @NotBlank
-    private String beerStyle;
+    private BeerStyleEnum beerStyle;
     @Positive
     private Long upc;
 
